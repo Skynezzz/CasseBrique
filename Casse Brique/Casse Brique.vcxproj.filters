@@ -13,5 +13,81 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{778473d6-7f26-4b17-9d50-d826f01a0589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\component">
+      <UniqueIdentifier>{f7a18b60-79f4-4133-8955-e30c1715d3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system">
+      <UniqueIdentifier>{c9e664c4-9d84-4ff1-aee9-1b6f57bf90b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gameobject">
+      <UniqueIdentifier>{788e3b6e-e4e3-4490-9f4f-64bf448ac7b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{7e1f6956-5f7a-4012-b519-9b543fc45875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{5feb9d0c-b146-4ba4-86bb-5eef40eddaf5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PositionComponent.hpp">
+      <Filter>src\component</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingComponent.hpp">
+      <Filter>src\component</Filter>
+    </ClInclude>
+    <ClInclude Include="CollideComponent.hpp">
+      <Filter>src\component</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementSystem.hpp">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.hpp">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.hpp">
+      <Filter>src\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.hpp">
+      <Filter>src\component</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>src\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PositionComponent.cpp">
+      <Filter>src\component</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingComponent.cpp">
+      <Filter>src\component</Filter>
+    </ClCompile>
+    <ClCompile Include="CollideComponent.cpp">
+      <Filter>src\component</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementSystem.cpp">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>src\system</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>src\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
