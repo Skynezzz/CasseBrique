@@ -139,6 +139,7 @@
     <ClInclude Include="MovementSystem.hpp" />
     <ClInclude Include="MovingComponent.hpp" />
     <ClInclude Include="PositionComponent.hpp" />
+    <ClInclude Include="RenderSystem.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CollideComponent.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="MovementSystem.cpp" />
     <ClCompile Include="MovingComponent.cpp" />
     <ClCompile Include="PositionComponent.cpp" />
+    <ClCompile Include="RenderSystem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

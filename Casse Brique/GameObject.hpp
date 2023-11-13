@@ -1,10 +1,12 @@
 #pragma once
 
+#include <SFML/Graphics.hpp>
 #include <vector>
 #include "Component.hpp"
 
 class GameObject {
 public:
+    GameObject() { addComponent(new Component); }
     ~GameObject() {
         for (auto& component : components) {
             delete component;

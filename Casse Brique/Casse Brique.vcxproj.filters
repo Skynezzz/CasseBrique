@@ -60,6 +60,9 @@
     <ClInclude Include="Game.hpp">
       <Filter>src\game</Filter>
     </ClInclude>
+    <ClInclude Include="RenderSystem.hpp">
+      <Filter>src\system</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PositionComponent.cpp">
@@ -88,6 +91,9 @@
     </ClCompile>
     <ClCompile Include="Game.cpp">
       <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>src\system</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
