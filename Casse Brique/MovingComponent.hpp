@@ -2,7 +2,7 @@
 
 #include "PositionComponent.hpp"
 
-class MovingComponent : public PositionComponent {
+class MovingComponent : public Component {
 private:
     sf::Vector2f direction;
     float velocity;

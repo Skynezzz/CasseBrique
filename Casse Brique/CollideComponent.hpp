@@ -2,7 +2,7 @@
 
 #include "PositionComponent.hpp"
 
-class CollideComponent : public PositionComponent {
+class CollideComponent : public Component {
 private:
     sf::Shape* hitbox;
 
